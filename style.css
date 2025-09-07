@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ background-color: silver;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ width: 100vw;
+ display: flex;
+}
+
+
+.calci{
+
+height: 40em;
+background-color: black;
+box-shadow: 0px 5px 30px;
+border-radius: 2em;
+padding-top: 45px;
+padding-left: 20px;
+padding-right: 20px;
+
+
+}
+
+#display{
+    border: none;
+    outline: none;
+    height: 90px;
+    width: 500px;
+    background-color: rgb(71, 71, 71);
+    box-shadow: 0px 5px 30px;
+    border-radius: 2em;
+    font-family: fantasy;
+    color: yellow;
+    font-size: 4rem;
+    padding: 15px;
+    margin-bottom: 0.6em;
+    padding-left: 50px;
+}
+
+
+.btns{
+    margin: 10px;
+     height: 70px;
+     width: 100px;
+     border-radius: 50%;
+     font-family: fantasy;
+     font-size: 3rem;
+     margin-left: 25px;
+    border: none;
+     cursor: pointer;
+     color: white;
+     background-color: rgb(57, 56, 56);
+    
+}
+
+
+#display::placeholder{
+    font-size: 3rem;
+    color: white;
+    font-size: larger;
+}
+
+.btns:hover{
+ 
+    box-shadow: 0px 5px 15px;
+   
+}
+
+
+
+#ac{
+color: orange;
+
+}
+
+#equal{
+
+    background-color: orange;
+
+}
+
